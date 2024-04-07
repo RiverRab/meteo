@@ -29,3 +29,18 @@ for index, row in df.iterrows():
     
     # Maintenant, vous pouvez utiliser ces variables pour insérer les données dans votre base de données
     print(f"Ma station a pour id {id_omm_station}, la mesure a été prise le {date}à  {heure} sur la {commune_name} ayant pour {commune_code}, dans le {departement}, de la {region}. La temperature était de {temperature}, le taux d'humidité était de {humidite} et la vitesse du vent {vitesse_vent}")
+
+
+
+
+
+  
+# id_omm_station = request.values.get('ID OMM station')
+# datetime_str = request.values.get('Date')
+# vitesse_vent = request.values.get('Vitesse du vent moyen 10 mn')
+# humidite = request.values.get('Humidité')
+# temperature = request.values.get('Température (°C)')
+# commune_name = request.values.get('communes (name)')
+# commune_code = request.values.get('communes (code)')
+# departement = request.values.get('department (name)')
+# region = request.values.get('region (name)')  
